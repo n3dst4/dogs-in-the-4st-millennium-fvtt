@@ -11,7 +11,7 @@ module.exports = {
   entry: "./src/dim41.ts",
   output: {
     path: path.join(__dirname, "dist"),
-    filename: "gumshoe.js",
+    filename: "dim41.js",
   },
   devtool: isProduction ? undefined : "source-map",
   module: {
