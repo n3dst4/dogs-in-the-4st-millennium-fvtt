@@ -1,0 +1,14 @@
+{
+  "Actor": {
+    "types": ["pc"],
+    "templates": {
+    },
+    "pc": {
+    }
+  },
+  "Item": {
+    "types": [],
+    "templates": {
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "dim41",
+  "title": "Dogs in the 41st Millennium",
+  "description": "Dogs in the Vineyard, in the 41st Millennium.",
+  "version": "1.0.0",
+  "author": "Neil de Carteret",
+  "scripts": [],
+  "esmodules": ["dim41.js"],
+  "styles": ["dim41.css"],
+  "packs": [
+  ],
+  "languages": [],
+  "gridDistance": 1,
+  "gridUnits": "",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "0.8.6",
+  "initiative": "1d6",
+  "url": "https://gitlab.com/n3dst4/dium41-fvtt",
+  "manifest": "https://gitlab.com/n3dst4/dium41-fvtt/-/raw/release/src/system.json",
+  "download": "https://gitlab.com/n3dst4/dium41-fvtt/uploads/4d30e202c9c399b940c19d0be3e6677c/gumshoe-v2.3.0.zip",
+  "license": "MIT",
+  "readme": "https://gitlab.com/n3dst4/dium41-fvtt/-/blob/release/README.md",
+  "bugs": "https://gitlab.com/n3dst4/dium41-fvtt/-/issues",
+  "changelog": "https://gitlab.com/n3dst4/dium41-fvtt/-/blob/release/CHANGELOG.md"
+}

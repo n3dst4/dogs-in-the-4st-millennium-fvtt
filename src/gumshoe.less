@@ -1,0 +1,22 @@
+/* ------------------------------------ */
+/*				   Less					*/
+/* This is your Less entry file			*/
+/* ------------------------------------ */
+
+.window-content.non-resizable {
+  padding: 0;
+}
+
+
+.window-content.resizable {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  .react-target {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+}
