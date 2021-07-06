@@ -1,6 +1,3 @@
-export type DIM41ActorData = {
-};
-
 /**
  * Like Partial<T>, but recursive.
  */

@@ -1,12 +1,9 @@
 /** @jsx jsx */
 import { useCallback } from "react";
-import { DIM41Actor } from "../../module/DIM41Actor";
 import { jsx } from "@emotion/react";
-import { CSSReset } from "../../common/components/CSSReset";
-import { themes } from "../../theme";
 
 type DIM41ActorSheetProps = {
-  actor: DIM41Actor,
+  actor: Actor,
   foundryApplication: ActorSheet,
 }
 
@@ -27,15 +24,11 @@ export const DIM41ActorSheet = ({
       top: (foundryApplication.position.top ?? 0) + 40,
       left: (foundryApplication.position.left ?? 0) + 10,
     });
-    // types aren't quite right for fp
-    return (fp as any).browse();
+    return fp.browse();
   }, [actor, foundryApplication.position.left, foundryApplication.position.top]);
 
-  const theme = themes.dim41Theme;
-
   return (
-      <CSSReset
-        theme={theme}
+      <div
         css={{
           position: "absolute",
           top: 0,
@@ -72,6 +65,6 @@ export const DIM41ActorSheet = ({
           }}
           onClick={onImageClick}
         />
-      </CSSReset>
+      </div>
   );
 };
